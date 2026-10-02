@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.500 --> 00:00:09.500
+Current agent harnesses treat LLMs as trusted executors running loose prompt scripts against uncurated vector swamps.
+
+2
+00:00:09.800 --> 00:00:19.500
+Without process isolation or transactional boundaries, a single hallucinating agent can corrupt shared context, destroy codebase integrity, and derail your entire swarm.
+
+3
+00:00:21.600 --> 00:00:30.800
+ZQK is the antidote: an open-core, distributed Cellular Operating System engineered natively in Go for autonomous multi-agent engineering swarms.
+
+4
+00:00:31.100 --> 00:00:39.800
+It shifts AI engineering away from ephemeral prompt loops into deterministic, high-assurance cellular organisms where agents are treated as untrusted processes.
+
+5
+00:00:40.500 --> 00:00:51.500
+The architecture rests on three pillars: First, a Bring-Your-Own-Agent swarm plane that connects Claude Code, Cursor, and custom models over standard MCP and Unix sockets.
+
+6
+00:00:51.800 --> 00:01:00.500
+Second, an out-of-band Go microkernel core that enforces lifecycle governance in milliseconds;
+
+7
+00:01:00.800 --> 00:01:05.500
+And third, an immutable, zero-lock POSIX filesystem as the single source of truth.
+
+8
+00:01:06.000 --> 00:01:16.800
+Inside ZQK, agents operate exclusively inside PlaneDraft—a sandboxed, quarantined memory plane. Agent proposals cannot mutate production state directly.
+
+9
+00:01:17.100 --> 00:01:29.200
+They must pass through the Cellular Membrane, which validates structural schemas and cryptographic integrity before any mutation can be promoted into the authoritative knowledge graph.
+
+10
+00:01:30.000 --> 00:01:40.500
+Rather than hoping an LLM follows instructions, ZQK enforces non-negotiable compile-time invariant gates.
+
+11
+00:01:40.800 --> 00:01:51.500
+Every mutation demands cryptographic Actor Attestation and ParentHash causal lineage. If an invariant cannot be proven, the gate fails closed in microseconds.
+
+12
+00:01:52.200 --> 00:02:02.500
+When an agent drifts off-specification or fails invariant checks, ZQK triggers cellular apoptosis.
+
+13
+00:02:02.800 --> 00:02:13.900
+The faulty draft state is quarantined and immediately rolled back to the last known stable cryptographic snapshot. The failure is contained entirely within the individual cell, preserving the health of the broader organism.
+
+14
+00:02:14.800 --> 00:02:24.200
+As systems scale, specialized microkernels federate into a living organism over typed wire protocols.
+
+15
+00:02:24.500 --> 00:02:34.200
+Neuron cells route intent and sensory feedback; Muscle cells drive heavy compute; Heart cells maintain immutable state; and Brain cells govern strategy and alignment across the enterprise mesh.
+
+16
+00:02:35.000 --> 00:02:45.500
+Models are non-deterministic, but operating systems cannot be. That is why the single-node core microkernel, CLI, and local storage planes are 100% open source under Apache 2.0.
+
+17
+00:02:45.800 --> 00:02:56.800
+Distributed clustering, peer discovery, and compliance enclaves form the commercial Enterprise Mesh. Visit zqk.dev to start building sovereign agent systems today.
